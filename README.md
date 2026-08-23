@@ -7,11 +7,11 @@
 ) 
 
 ## Sumário
-   - ### [Introdução 📖](##Introdução)
-   - ### [Como Funciona 💭](##Como-Funciona)
-   - ### [Requisitos ⚙️](##Requisitos)
-   - ### [Modo de Usar 📌](##Modo-de-Usar)
-   - ### [Sobre ©️](##Sobre)
+   - #### [Introdução 📖](##Introdução)
+   - #### [Como Funciona 💭](##Como-Funciona)
+   - #### [Requisitos ⚙️](##Requisitos)
+   - #### [Modo de Usar 📌](##Modo-de-Usar)
+   - #### [Sobre ©️](##Sobre)
 
 ## Introdução
 Este repositório é dedicado a desenvolver um token seguro para transmissão e visualização de tela.
@@ -43,6 +43,15 @@ Caso não possua o python instalado na sua máquina, realize o download [aqui](h
 ## Modo de Usar
 
 ## Sobre
-Todos os direitos reservados Ⓒ Ana Alice
+.  
+.  
+.
+
+<div align="center">
+    Todos os direitos reservados Ⓒ Ana Alice
+
+<br>
 
 ![](https://img.shields.io/badge/github-Yurume-black?logo=github)
+
+</div>
