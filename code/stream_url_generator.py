@@ -1,5 +1,30 @@
 import secrets
 from hyperlink_generator import hyperlink
+import tkinter
+import webbrowser
+
+def open_window():
+        window_link = tkinter.Toplevel()
+        window_link.title('StreamOBS Links')
+        window_link.geometry('300x200')
+
+        links = generate_url_pair()
+
+        texto_url = tkinter.Label(window_link, text='Links Gerados!')
+        texto_url.pack()
+
+        transmission = tkinter.Label(window_link, text='Ir para transmissão de tela')
+        transmission.pack(side='top', anchor='center', pady=10)
+
+        button_transmission = tkinter.Button(window_link, width=20, text='LINK DE TRANSMISSÃO', command=lambda: webbrowser.open(links[0]))
+        button_transmission.pack(side='top', anchor='center')
+
+        watching = tkinter.Label(window_link, text='Copiar link para assistir transmissão')
+        watching.pack(side='top', anchor='center', pady=10)
+
+        button_watching = tkinter.Button(window_link, width=20, text='LINK PARA ASSISTIR', command=lambda: window_link.clipboard_append(links[1]))
+        button_watching.pack(side='top', anchor='center')
+
 
 def generate_url_pair():
     url_transmission = 'https://vdo.ninja/?push={SOMESTREAMID}&ss&q=0'
@@ -9,7 +34,6 @@ def generate_url_pair():
     url_transmission = url_transmission.format(SOMESTREAMID=stream_id)
     url_visualize = url_visualize.format(SOMESTREAMID=stream_id)
 
-    link_stream = hyperlink(url_transmission, 'URL PARA TRANSMISSAO')
-    link_watch = hyperlink(url_visualize, 'URL PARA ASSISTIR')
+    url_pair = (url_transmission, url_visualize)
 
-    return f'Transmita sua tela aqui: {link_stream} \n Compartilhe este link para assistir: {link_watch}' 
+    return url_pair
