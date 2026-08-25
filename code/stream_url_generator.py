@@ -6,6 +6,9 @@ def generate_url_pair():
     url_visualize = 'https://vdo.ninja/?v={SOMESTREAMID}&vb=10000&scale=100'
     stream_id = secrets.token_urlsafe(32)
 
+    if '-' in stream_id:
+        stream_id = stream_id.replace('-', '_') 
+
     url_transmission = url_transmission.format(SOMESTREAMID=stream_id)
     url_visualize = url_visualize.format(SOMESTREAMID=stream_id)
 
