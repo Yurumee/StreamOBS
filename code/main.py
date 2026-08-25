@@ -16,4 +16,7 @@ if __name__ == '__main__':
     texto_boas_vindas.pack(pady=10)
     botao_gerar_urls.pack(pady=10)
 
+    copyright_text = tkinter.Label(root, text='Todos os direitos reservados Ⓒ 2026 Ana Alice')
+    copyright_text.pack(side='bottom', anchor='center')
+
     root.mainloop()

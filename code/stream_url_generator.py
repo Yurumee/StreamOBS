@@ -31,6 +31,8 @@ def open_window():
         button_watching = tkinter.Button(window_link, width=20, text='LINK PARA ASSISTIR', command=lambda: window_link.clipboard_append(links[1]))
         button_watching.pack(side='top', anchor='center')
 
+        copyright_text = tkinter.Label(window_link, text='Todos os direitos reservados Ⓒ 2026 Ana Alice')
+        copyright_text.pack(side='bottom', anchor='center')
 
 def generate_url_pair():
     url_transmission = 'https://vdo.ninja/?push={SOMESTREAMID}&ss&q=0'

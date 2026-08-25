@@ -48,7 +48,7 @@ Caso não possua o python instalado na sua máquina, realize o download [aqui](h
 .
 
 <div align="center">
-    Todos os direitos reservados Ⓒ Ana Alice
+    Todos os direitos reservados Ⓒ 2026 Ana Alice
 
 <br>
 
