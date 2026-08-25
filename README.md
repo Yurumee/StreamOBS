@@ -31,27 +31,48 @@ Os links levam para o site [VDO.NINJA](https://vdo.ninja/), idealizado pelos cri
 >
 > Tanto para transmissão como para visualização, deve-se permitir câmera e/ou microfone (apenas selecione a opção "nenhum")
 >
-> Isso acontece pois pode-se utilizar isto pelo próprio site como ferramentas de reunãi como Google Meet ou Zoom.
+> Isso acontece pois pode-se utilizar isto pelo próprio site como ferramentas de reunião como Google Meet ou Zoom.
 
 Os links podem ser visualizados pelo terminal ou por meio do executável. Nenhuma das formas exige instalação.
 
 ## Requisitos
- - Python;
+ - Python (caso deseje executar via terminal);
 
 Caso não possua o python instalado na sua máquina, realize o download [aqui](https://www.python.org/downloads/)
 
 ## Modo de Usar
 
+### Terminal
+* Caso deseje utilizar o programa via prompt de comando, realize o download da pasta "code" ou clone a branch "token-generator";
+* Abra o terminal e navegue até a localização da pasta;
+* Dentro da pasta, execute o comando:
+
+```cmd
+python main.py
+```
+
+### Executável
+* Caso deseje utilizar o executável, realize o download na pasta "executable";
+
+> [!CAUTION]
+>
+> Quando o executável é aberto, alguns antivírus podem detectar como um programa nocivo, entretanto, isso se deve pois o programa não é oficialmente registrado e o autor consta como desconhecido.
+>
+> O PROGRAMA NÃO POSSUI NENHUMA AÇÃO NOCIVA AO SISTEMA.
+
 ## Sobre
-.  
-.  
-.
+O site não pertence a este reposítório ou seus criadores. Este programa apenas serve como uma ferramenta para auxiliar e melhorar o processo de uso do site pertencente ao OBS Project. O programa foi desenvolvido para estudo e uso pessoal.
+
+**A comercialização desta ferramenta é proibida.**
+
+<br>
+<br>
 
 <div align="center">
-    Todos os direitos reservados Ⓒ Ana Alice
+    Todos os direitos reservados Ⓒ 2026 Ana Alice
 
 <br>
 
-![](https://img.shields.io/badge/github-Yurume-black?logo=github)
+![](https://img.shields.io/badge/github-Yurumee-black?logo=github)
 
 </div>
