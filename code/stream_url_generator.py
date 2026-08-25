@@ -6,7 +6,13 @@ import webbrowser
 def open_window():
         window_link = tkinter.Toplevel()
         window_link.title('StreamOBS Links')
-        window_link.geometry('300x200')
+
+        tela_largura = window_link.winfo_screenwidth()
+        tela_altura = window_link.winfo_screenheight()
+        x_desejado = int((tela_largura / 2) - (300 / 2))
+        y_desejado = int((tela_altura / 2) - (200 / 2))
+
+        window_link.geometry(f'300x200+{x_desejado}+{y_desejado}')
 
         links = generate_url_pair()
 
